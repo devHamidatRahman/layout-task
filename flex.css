@@ -6,8 +6,9 @@
 
 .container{
     background-color: hsl(0, 0%, 95%);
-    margin:30px auto;
-    width:60%;
+    margin:50px auto;
+    width:80%;
+    height: 90vh;
 }
  
 .content{
@@ -17,7 +18,7 @@
     align-items: center;
     height: 80vh;
     flex-wrap: nowrap;
-    margin:30px auto;
+    margin: auto;
     width:80%;
     height: 80vh;
     border-radius: 5px;
@@ -71,4 +72,18 @@ p {
     color: hsla(0, 0%, 100%, 0.75);
     font-family:'Lexend Deca', sans-serif;
 }
-
+.grid-layout{
+    border-radius: 10px;
+    border:1px solid #fff;
+    text-align: center;
+    padding: 5px;
+    background-color:hsl(184, 100%, 22%) ;
+    cursor: pointer;
+    color:#fff;
+    font-family:'Lexend Deca', sans-serif;
+    margin: 5px 10px 10px auto;
+    
+    display: block;
+    text-decoration: none;
+    width:25%;
+}
